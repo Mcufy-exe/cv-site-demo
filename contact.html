@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İletişim - Erdem Özkaya</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Erdem Özkaya</h1>
+<nav>
+<ul>
+<li><a href="index.html">Ana Sayfa</a></li>
+<li><a href="contact.html" class="active">İletişim</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="contact-section">
+<h2>İletişim</h2>
+<div class="contact-info">
+<div class="contact-item"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/maildotru.svg" alt="Email"><strong>Email:</strong> <a href="mailto:erdem@example.com">erdem@example.com</a></div>
+<div class="contact-item"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="Telefon"><strong>Telefon:</strong> +90 555 555 5555</div>
+<div class="contact-item social-media">
+<a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"></a>
+<a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"></a>
+<a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter"></a>
+</div>
+</div>
+</section>
+
+<footer>Demo amaçlıdır bilgiler gerçek değidir| Yapımcı: Erdem</footer>
+<script src="script.js"></script>
+<style>
+.contact-section {padding:150px 10%; text-align:center; animation:fadeIn 1s ease forwards; opacity:0;}
+.contact-section h2 {font-size:2.8rem; color:#f59e0b; margin-bottom:50px; text-shadow:0 0 10px #f59e0b;}
+.contact-info {display:flex; flex-direction:column; align-items:center; gap:30px;}
+.contact-item {display:flex; align-items:center; gap:15px; font-size:1.3rem; color:#ccc; transition:0.3s;}
+.contact-item img {width:28px; height:28px; filter:invert(88%) sepia(47%) saturate(637%) hue-rotate(335deg) brightness(101%) contrast(95%); transition:0.3s;}
+.contact-item a {color:#f59e0b; text-decoration:none; transition:0.3s;}
+.contact-item a:hover {color:#ff4b2b; text-decoration:underline;}
+.social-media {display:flex; gap:20px; justify-content:center;}
+.social-media a img {width:32px; height:32px; filter:invert(88%) sepia(47%) saturate(637%) hue-rotate(335deg) brightness(101%) contrast(95%); transition:0.3s;}
+.social-media a img:hover {filter:invert(55%) sepia(90%) saturate(500%) hue-rotate(5deg) brightness(105%) contrast(100%); transform:scale(1.1);}
+@media(max-width:768px){.contact-section{padding:120px 10%;}.contact-section h2{font-size:2.2rem;}.contact-item{flex-direction:column; gap:10px;}.social-media a img{width:28px;height:28px;}}
+</style>
+</body>
+</html>
+
